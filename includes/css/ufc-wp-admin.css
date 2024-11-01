@@ -1,0 +1,60 @@
+a.toplevel_page_ufc-field-collections > div.wp-menu-image:before{
+  content: "";
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiByeD0iMTI4IiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwNy4wOSAxMDEuODY0VjcwLjVIMTA3LjA5MVYxNDMuNjgyQzEwNy4wOTEgMTU1LjIzIDExNi40NTIgMTY0LjU5MSAxMjggMTY0LjU5MUMxMzkuNTQ4IDE2NC41OTEgMTQ4LjkwOSAxNTUuMjMgMTQ4LjkwOSAxNDMuNjgyVjcwLjVIMjExLjYzN1YxMzguNDU0QzIxMS42MzcgMTg0LjY0NiAxNzQuMTkyIDIyMi4wOTEgMTI4LjAwMSAyMjIuMDkxQzgxLjgwOTQgMjIyLjA5MSA0NC4zNjQxIDE4NC42NDYgNDQuMzY0MSAxMzguNDU1VjEzMy4yMjdINzUuNzI3OFYxMDEuODY0SDEwNy4wOVoiIGZpbGw9IiMxQjZBRTAiLz4KPHBhdGggZD0iTTEwNy4wOSA3MC41SDc1LjcyNjdWMTAxLjg2NEgxMDcuMDlWNzAuNVoiIGZpbGw9IiNGRjY5MzMiLz4KPHBhdGggZD0iTTc1LjcyNzggNzAuNUg0NC4zNjQxVjEwMS44NjRINzUuNzI3OFY3MC41WiIgZmlsbD0iI0ZGRTEwMCIvPgo8cGF0aCBkPSJNNzUuNzI3OCAxMDEuODYzSDQ0LjM2NDFWMTMzLjIyN0g3NS43Mjc4VjEwMS44NjNaIiBmaWxsPSIjMUZCODAwIi8+CjxwYXRoIGQ9Ik0xNDguOTEgNzAuNUgxODAuMjczVjEwMS44NjRIMTQ4LjkxVjcwLjVaIiBmaWxsPSIjRkY2OTMzIi8+CjxwYXRoIGQ9Ik0xODAuMjcyIDcwLjVIMjExLjYzNlYxMDEuODY0SDE4MC4yNzJWNzAuNVoiIGZpbGw9IiNGRkUxMDAiLz4KPHBhdGggZD0iTTE4MC4yNzIgMTAxLjg2M0gyMTEuNjM2VjEzMy4yMjdIMTgwLjI3MlYxMDEuODYzWiIgZmlsbD0iIzFGQjgwMCIvPgo8L3N2Zz4K") no-repeat center / cover;
+  display: inline-block;
+  position: relative;
+  speak: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  margin-top: 6px;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+}
+
+@media only screen and (max-width: 960px){
+  .auto-fold #adminmenu a.toplevel_page_ufc-field-collections > div.wp-menu-image:before{
+    margin-top: 7px;
+  }
+}
+
+#adminmenu .toplevel_page_ufc-field-collections.wp-has-current-submenu .wp-submenu .wp-submenu-head, 
+#adminmenu .toplevel_page_ufc-field-collections .wp-menu-arrow, 
+#adminmenu .toplevel_page_ufc-field-collections .wp-menu-arrow div, 
+#adminmenu li.toplevel_page_ufc-field-collections.current a.menu-top, 
+#adminmenu li.toplevel_page_ufc-field-collections.wp-has-current-submenu a.wp-has-current-submenu{
+  background: rgb(27 106 224);
+}
+
+[data-name$="ufc_field_settings_position_position"] [data-name="alignment"] .acf-input .acf-button-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px;
+  overflow: hidden;
+  justify-items: center;
+  background-color: rgb(204 208 212);
+  /* box-shadow: 0 0 0 1px rgb(204 208 212); */
+  width: 100%;
+  border: 1px solid rgb(204 208 212);
+  padding: 0;
+}
+[data-name$="ufc_field_settings_position_position"] [data-name="alignment"] .acf-input .acf-button-group label,
+[data-name$="ufc_field_settings_position_position"] [data-name="alignment"] .acf-input .acf-button-group label input{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 0;
+}
+[data-name$="ufc_field_settings_position_position"] [data-name="alignment"] .acf-input .acf-button-group label{
+  border: 0;
+  box-shadow: 0 0 0 1px rgb(204 208 212);
+}
+[data-name$="ufc_field_settings_position_position"] [data-name="alignment"] .acf-input .acf-button-group label input{
+  
+}
